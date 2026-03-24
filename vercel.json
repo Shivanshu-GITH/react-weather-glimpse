@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd react-weather-glimpse && npm install && npm run build",
+  "outputDirectory": "react-weather-glimpse/dist",
+  "installCommand": "cd react-weather-glimpse && npm install"
+}
