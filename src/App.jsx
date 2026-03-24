@@ -4,7 +4,7 @@ import WeatherInfo from "./components/WeatherInfo";
 import Header from "./components/Header";
 import "./App.css";
 
-const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
+const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
 export default function App() {
   const [weatherData, setWeatherData] = useState(null);
   const [loading, setLoading]         = useState(false);
